@@ -1,0 +1,4 @@
+python train.py probing data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --base-model-dir serialization_dirs/main_dan_5k_with_emb --layer-num 1 --num-epochs 8 --suffix-name _sentiment_dan_with_emb_on_5k_at_layer_1
+python train.py probing data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --base-model-dir serialization_dirs/main_dan_5k_with_emb --layer-num 2 --num-epochs 8 --suffix-name _sentiment_dan_with_emb_on_5k_at_layer_2
+python train.py probing data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --base-model-dir serialization_dirs/main_dan_5k_with_emb --layer-num 3 --num-epochs 8 --suffix-name _sentiment_dan_with_emb_on_5k_at_layer_3
+python train.py probing data/imdb_sentiment_train_5k.jsonl data/imdb_sentiment_dev.jsonl --base-model-dir serialization_dirs/main_dan_5k_with_emb --layer-num 4 --num-epochs 8 --suffix-name _sentiment_dan_with_emb_on_5k_at_layer_4
